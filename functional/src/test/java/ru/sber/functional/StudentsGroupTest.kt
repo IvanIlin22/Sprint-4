@@ -8,32 +8,23 @@ class StudentsGroupTest {
 
     private val studentsGroup: StudentsGroup = StudentsGroup();
 
-    private val student1: Student = Student("Ivan",
-        "Ivanov",
-        "Имя отсутствует",
-        18,
-        5.0,
-        "Moscow",
-        "Специализация отсутствует",
-        "Образование отсутствует"
+    private val student1: Student = Student(firstName ="Ivan",
+        lastName = "Ivanov",
+        age = 18,
+        averageRate = 5.0,
+        city = "Moscow"
     )
-    private val student2: Student = Student("Ivan",
-        "Petrov",
-        "Имя отсутствует",
-        25,
-        3.0,
-        "Moscow",
-        "Специализация отсутствует",
-        "Образование отсутствует"
+    private val student2: Student = Student(firstName = "Ivan",
+        lastName = "Petrov",
+        age = 25,
+        averageRate = 3.0,
+        city = "Moscow"
     )
-    private val student3: Student = Student("Ivan",
-        "Fedorov",
-        "Имя отсутствует",
-        17,
-        4.25,
-        "Saint Petersburg",
-        "Специализация отсутствует",
-        "Образование отсутствует"
+    private val student3: Student = Student(firstName = "Ivan",
+        lastName = "Fedorov",
+        age = 17,
+        averageRate = 4.25,
+        city = "Saint Petersburg"
     )
 
     @BeforeEach
